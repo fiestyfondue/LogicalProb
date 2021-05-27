@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Perfect_Number
+namespace fibonacci
 {
-    class program
+    class PrimeNumber
     {
         static void Main(string[] args)
         {
@@ -13,13 +15,13 @@ namespace Perfect_Number
 
             for (int i = 0; i <= number; i++)
             {
-                if(number%i==0)
+                if (number % i == 0)
                 {
                     divisor++;
                 }
 
             }
-            if(divisor==2)
+            if (divisor == 2)
             {
                 Console.WriteLine("Entered number is a prime number");
 
@@ -32,4 +34,3 @@ namespace Perfect_Number
         }
     }
 }
-     
