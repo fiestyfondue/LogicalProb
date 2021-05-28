@@ -8,7 +8,7 @@ namespace fibonacci
     {
 
        static void Main(string[] args)
-       {     
+       {    
             int num = 1234;
             int result = 0;
             int rem;
